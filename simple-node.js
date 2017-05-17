@@ -2,7 +2,6 @@ var through = require('through2');
 var fs = require('fs');
 var split = require('split');
 
-linecount = 0;
 
 var through = through(function(buffer, _, next){
   buffer = buffer.toString().toUpperCase();
