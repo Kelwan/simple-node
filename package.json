@@ -1,16 +1,16 @@
 {
-  "name": "through2",
+  "name": "simple-package",
   "version": "1.0.0",
   "description": "A package containing through2, and perhaps more!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "Kelwan",
   "license": "ISC",
   "dependencies":
-    { "through2/pkg": "2.0.3"
-    , "fs/pkg": "0.0.1"
-    , "split/pkg": "1.0.0"
+   { "through2": "2.0.3"
+    , "fs": "0.0.1-security"
+    , "split": "1.0.0"
     }
 }
