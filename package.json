@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies":
    { "through2": "2.0.3"
-    , "fs": "0.0.1-security"
     , "split": "1.0.0"
     }
 }
