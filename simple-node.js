@@ -11,7 +11,7 @@ var through = through(function(buffer, _, next){
 });
 
 
-fs.createReadStream(path.resolve(__dirname + 'problem.txt'))
+fs.createReadStream(path.resolve(__dirname, 'problem.txt'))
   .pipe(split())
   .pipe(through)
   .pipe(process.stdout)
