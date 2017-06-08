@@ -2,14 +2,14 @@
   "name": "simple-package",
   "version": "1.0.0",
   "description": "A package containing through2, and perhaps more!",
-  "main": "index.js",
+  "main": "simple-node.js",
   "scripts": {
-    "test": "node test.js"
+    "start": "node ./simple-node.js"
   },
   "author": "Kelwan",
   "license": "ISC",
-  "dependencies":
-   { "through2": "2.0.3"
-    , "split": "1.0.0"
-    }
+  "dependencies": {
+     "through2": "2.0.3",
+     "split": "1.0.0"
+  }
 }
