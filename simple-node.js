@@ -1,6 +1,7 @@
 var through = require('through2');
 var fs = require('fs');
 var split = require('split');
+var path = require("path");
 
 
 var through = through(function(buffer, _, next){
@@ -10,7 +11,7 @@ var through = through(function(buffer, _, next){
 });
 
 
-fs.createReadStream('problem.txt')
+fs.createReadStream(path.resolve(__dirname, 'problem.txt'))
   .pipe(split())
   .pipe(through)
   .pipe(process.stdout)
