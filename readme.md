@@ -5,6 +5,4 @@ simple-node.js reads a simple file (problem.txt) and transforms the characters t
 
 # Getting Started
 
-Run 'simple-node.js' with Node.
-
-!
+Install your dependencies with `npm install` and run the package with `npm start`.
